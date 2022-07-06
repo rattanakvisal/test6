@@ -1,0 +1,101 @@
+/* basic */
+.gradient {background: #0688da !important; 
+background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+) !important;
+background: -moz-linear-gradient(top,  #0688da 0%, #03568a 100%) !important; 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0688da), color-stop(100%,#03568a)) !important; 
+background: -webkit-linear-gradient(top,  #0688da 0%,#03568a 100%) !important; 
+background: -o-linear-gradient(top,  #0688da 0%,#03568a 100%) !important; 
+background: -ms-linear-gradient(top,  #0688da 0%,#03568a 100%) !important;
+background: linear-gradient(to bottom,  #0688da 0%,#03568a 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0688da', endColorstr='#03568a',GradientType=0 ) !important;}
+a.gradient:hover {background: #03568a !important;
+background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #03568a 0%, #03568a 0%, #0688da 100%) !important; 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#03568a), color-stop(0%,#03568a), color-stop(100%,#0688da)) !important; 
+background: -webkit-linear-gradient(top,  #03568a 0%,#03568a 0%,#0688da 100%)!important; 
+background: -o-linear-gradient(top,  #03568a 0%,#03568a 0%,#0688da 100%) !important; 
+background: -ms-linear-gradient(top,  #03568a 0%,#03568a 0%,#0688da 100%) !important; 
+background: linear-gradient(to bottom,  #03568a 0%,#03568a 0%,#0688da 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03568a', endColorstr='#0688da',GradientType=0 ) !important;}
+.center-select {background-color: #666;}
+
+/* menu */
+.menu-list a {color: #666;}
+.menu-list a:hover, .menu-list a.active {color: #666;}
+#navul li ul li {background:#666;border-color:#555;}
+#navul li ul li a {color: #333;}
+#navul li.navmoon ul a:hover{color: #666;}
+
+/* foot */
+.foot-nav a:hover {color: #ccc;}
+
+/* page */
+.page a:hover, .page a.active {background: #333;}
+
+/* notice */
+.notice span {background-color: #333;}
+
+/* recom */
+.recom a:hover span {background: #333;}
+
+/* attention */
+.attention {background-color: #333;}
+
+/* link */
+.link a.la1 {background-image: url(../images/black/te-ico-1.png);}
+.link a.la2 {background-image: url(../images/black/te-ico-2.png);}
+.link a.la3 {background-image: url(../images/black/te-ico-3.png);}
+
+/* number-two */
+.number-two a h3 {color: #eee;}
+
+/* casino */
+.casino a h3 {color: #eee;}
+
+/* lobby */
+.lobby-list h3 {color: #eee;}
+
+/* promo */
+.promo-group-txt a {background-color: #333;}
+.promo-tab a:hover, .promo-tab a.active {background: #666;}
+
+/* article */
+.side-group:hover, .open > .side-group {color: #555;}
+.article-contant h1 {color: #333;}
+
+/* register */
+.register-title i {background: url(../images/black/register-ico.png) no-repeat;}
+
+/* center */
+.center-info-txt h5 {color: #fff;}
+.center-info-btn a:hover {background-image: url(../images/black/center-btn-hover.png);}
+.center-side a:hover, .center-side a.active {background: #0688da;
+background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)!important;
+background: -moz-linear-gradient(top,  #0688da 0%, #03568a 100%)!important; 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0688da), color-stop(100%,#03568a))!important; 
+background: -webkit-linear-gradient(top,  #0688da 0%,#03568a 100%)!important; 
+background: -o-linear-gradient(top,  #0688da 0%,#03568a 100%)!important; 
+background: -ms-linear-gradient(top,  #0688da 0%,#03568a 100%)!important;
+background: linear-gradient(to bottom,  #0688da 0%,#03568a 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0688da', endColorstr='#03568a',GradientType=0 )!important;}
+
+/* indolotto */
+.indolotto-title span {background: #eee;color: #555;}
+
+/* forex */
+.forex-tab a:hover, .forex-tab a.active {background: #eee;color: #555;}
+.forex-tig-btn a.up, .forex-tig-btn a.down {background-color: #333;}
+.forex-tig-btn a:hover {background-color: #000;}
+
+/* slots */
+.slots-nav a:hover, .slots-nav a.active {background: #333;}
+.slots-list a span {background: #333;}
+.slots-list a:hover, .slots-list a.active {border-color: #333;}
+
+.mobi_app h3 {background: #333;}
+
+
+
+
+
+

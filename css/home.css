@@ -1,0 +1,672 @@
+#banner {
+    height: 977px;
+    background: url(../images/banner.jpg) no-repeat center top;
+}
+#content {
+    padding: 0 0 40px;
+}
+.game-box {
+    height: 202px;
+    margin-top: -150px;
+    font-size: 0;
+    background: url(../images/game_box_bg.png) no-repeat center top;
+}
+.game-box > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 262px;
+    margin-top: -60px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+.game-box li.home-sport span {
+    position: absolute;
+    left: 20.4%;
+    top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+.game-box li.home-slot span {
+    position: absolute;
+    right: 29.5%;
+    top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+.game-box li.home-casino span {
+    position: absolute;
+    left: 45.1%;
+    top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+.game-box li.home-lottery span {
+    position: absolute;
+    right:4.1%;
+    top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+.game-box > li:hover {
+    background-position: 10px bottom;
+}
+.game-box > li > a {
+    display: block;
+    height: 100%;
+}
+.game-box > li[game-box="slot"] {
+    background-image: url(../images/home/slot.png);
+}
+.game-box > li[game-box="live"] {
+    background-image: url(../images/home/live.png);
+}
+.game-box > li[game-box="lottery"] {
+    background-image: url(../images/home/fishing.png);
+}
+.game-box > li[game-box="sport"] {
+    background-image: url(../images/home/sport.png);
+}
+#news {
+    z-index: 5;
+    position: relative;
+    height: 42px;
+    background: rgb(12, 12, 12, 0.8);
+}
+#news .wrapper {
+    padding-left: 80px;
+}
+#hot-news li {
+    color: #ab8982;
+}
+#hot-news marquee {
+    height: 40px;
+    line-height: 40px;
+    color: #6b6b6b;
+    font-size: 16px;
+}
+.slot-game {
+    position: relative;
+    height: 595px;
+    margin-top: 64px;
+    font-size: 0;
+    text-align: left;
+    background: url(../images/slot_bg.png) no-repeat center bottom;
+}
+.slot-game .slot-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+}
+.slot-game .slot-nav > li {
+    height: 70px;
+    background: url(../images/slot_list.png) no-repeat center top;
+}
+.slot-game .slot-nav > li:hover,
+.slot-game .slot-nav > li.active {
+    background-color: #331f20;
+}
+.slot-game > .slot-board {
+    display: inline-block;
+    vertical-align: top;
+    width: 445px;
+    height: 420px;
+    padding: 225px 10px 0;
+    text-align: center;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+}
+.slot-game > .slot-board p {
+    margin: 10px 0;
+    color: #d0b9a5;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+}
+.slot-game > .slot-board p.second {
+    color: #b19882;
+    font-size: 14px;
+    font-style: italic;
+}
+.slot-game > .slot-board .entry {
+    display: block;
+    width: 251px;
+    height: 42px;
+    margin: 0 auto;
+    color: #fc9;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+    background: url(../images/entry.png) no-repeat center top;
+}
+.slot-game > .slot-board .entry:hover {
+    color: #fff;
+}
+.slot-game > .character {
+    position: absolute;
+    top: -28px;
+    right: -20px;
+    width: 399px;
+    height: 559px;
+    background: url(../images/slot_character.png) no-repeat center top;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.slot-game > .character:hover {
+    right: -30px;
+}
+.slot-game > .slot-list {
+    position: relative;
+    padding-left: 270px;
+}
+.slot-game > .slot-list > li {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    height: 114px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+.slot-game > .slot-list > li:hover {
+    background-position: center bottom;
+}
+.sport-game {
+    position: relative;
+    height: 389px;
+    background: url(../images/sport_bg.png) no-repeat center top;
+}
+.sport-game > .sport > li {
+    height: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-transition: margin 0.5s;
+    -o-transition: margin 0.5s;
+    -webkit-transition: margin 0.5s;
+    transition: margin 0.5s;
+}
+.sport-game > .sport > li:hover {
+    margin-left: 10px;
+}
+.sport-game > .lottery {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.sport-game > .lottery > li {
+    float: right;
+    height: 195px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-transition: margin 0.5s;
+    -o-transition: margin 0.5s;
+    -webkit-transition: margin 0.5s;
+    transition: margin 0.5s;
+    clear: both;
+}
+.sport-game > .lottery > li:hover {
+    margin-right: -10px;
+}
+.home-mobile {
+    position: relative;
+    height: 487px;
+    margin-top: 12px;
+    background-image: url(../images/mobile_bg.png);
+}
+.home-mobile > .mobile-phone {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 460px;
+    height: 526px;
+    margin-left: -230px;
+    background-image: url(../images/mobile_phone.png);
+    -moz-transition: top 0.5s;
+    -o-transition: top 0.5s;
+    -webkit-transition: top 0.5s;
+    transition: top 0.5s;
+}
+.home-mobile > .mobile-phone:hover {
+    top: -20px;
+}
+.home-mobile > .mobile-qr {
+    position: absolute;
+    top: 177px;
+    left: 130px;
+    width: 108px;
+    height: 108px;
+    background: #fff url(../images/mobile_qr.1.png) no-repeat center;
+    background-size: contain;
+}
+.home-license {
+    height: 566px;
+    background-image: url(../images/license_bg.png);
+}
+.slot-game .slot-nav > li.pt {
+    background-position: center -70px;
+}
+.slot-game .slot-nav > li.bbin {
+    background-position: center -140px;
+}
+.slot-game .slot-nav > li.ag {
+    background-position: center -210px;
+}
+.slot-game .slot-nav > li.mg {
+    background-position: center 0;
+}
+.slot-game .slot-nav > li.cq9 {
+    background-position: center -280px;
+}
+.slot-game .slot-nav > li.rt {
+    background-position: center -350px;
+}
+.sport-game > .sport > li:nth-child(1) {
+    width: 233px;
+}
+.sport-game > .sport > li:nth-child(2) {
+    width: 287px;
+}
+.sport-game > .sport > li:nth-child(3) {
+    width: 342px;
+}
+.sport-game > .lottery > li:nth-child(1) {
+    width: 311px;
+}
+.sport-game > .lottery > li:nth-child(2) {
+    width: 230px;
+}
+
+section#slider {
+    margin-top: 180px;
+}
+.jack {
+    text-align: center;
+}
+.home-lobby {
+    padding-top: 15px;
+    margin-top: 10px;
+}
+.text-white {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    display: block;
+    color: #f6a903;
+    transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,0%);
+    left: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    bottom: 0%;
+    font-size: 22px;
+    font-weight: 700;
+    color: #330165;
+    background: linear-gradient(90deg, rgb(75 23 169 / 0%) 0%, rgb(130 56 34) 50%, rgb(75 23 169 / 0%) 100%);
+    padding: 5px 0px;
+}
+.hover-blur a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.box-home1 {
+    margin-top: 5px;
+}
+.hnum_bg {
+    background: url(../images/home/num_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hpoker_bg {
+    background: url(../images/home/poker_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hforex_bg {
+    background: url(../images/home/forex_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hpromo_bg {
+    background: url(../images/home/promo_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-img {
+    text-align: center;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+.box-img:hover{
+	  transform: translate(1em,0);
+  -webkit-transform: translate(1em,0);
+  -moz-transform: translate(1em,0);
+  -o-transform: translate(1em,0);
+  -ms-transform: translate(1em,0);
+}
+.hpromo_bg img {
+    margin-top: 5px;
+}
+.banks{
+    margin-top: 10px;
+    text-align: center;
+}
+.home-lobby .form-row>.col, .form-row>.col-4:first-child {
+    padding-right: 0px;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.section01 {
+    background: #000 url(../images/home/phone.jpg) no-repeat center top;
+}
+.section01 .tabUl {
+    padding: 0 0 40px 0;
+    width: 85px;
+    display: table;
+    margin: 0 auto;
+}
+.section01 .tabUl li {
+    margin-bottom: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+}
+.section01 .tabUl a {
+    display: block;
+    width:90px;
+    height: 80px;
+    color: #fdbb94;
+    background: url(../images/home/link_bg02.png) no-repeat left top;
+}
+.section01 .tabUl a:hover {
+    color: #73242a;
+    background: url(../images/home/link_bg03.png) no-repeat left top;
+}
+.section01 .tabUl a p {
+    padding: 53px 0 0 0;
+    color:#000;
+}
+.section01 .tabUl a p:hover{
+    color: #73242a;
+}
+.section01 .tabUl .li01 p {
+    background: url(../images/home/link03.png) no-repeat center -175px;
+}
+.section01 .tabUl .li01 a:hover p {
+    background: url(../images/home/link04.png) no-repeat center -175px;
+}
+.section01 .tabUl .li02 p {
+    background: url(../images/home/link05.png) no-repeat center -80px;
+}
+.section01 .tabUl .li02 a:hover p {
+    background: url(../images/home/link06.png) no-repeat center -80px;
+}
+.section01 .tabUl .li03 p {
+    background: url(../images/home/link03.png) no-repeat center 17px;
+}
+.section01 .tabUl .li03 a:hover p {
+    background: url(../images/home/link04.png) no-repeat center 17px;
+}
+.section01 .tabUl .li04 p {
+    background: url(../images/home/link03.png) no-repeat center -275px;
+}
+.section01 .tabUl .li04 a:hover p {
+    background: url(../images/home/link04.png) no-repeat center -275px;
+}
+.section01 .tabUl .li05 p {
+    background: url(../images/home/link05.png) no-repeat center 17px;
+}
+.section01 .tabUl .li05 a:hover p {
+    background: url(../images/home/link06.png) no-repeat center 17px;
+}
+.section01 .tabUl .li06 p {
+    background: url(../images/home/link05.png) no-repeat center -175px;
+}
+.section01 .tabUl .li06 a:hover p {
+    background: url(../images/home/link06.png) no-repeat center -175px;
+}
+.section01 .tabUl .li07 p {
+    background: url(../images/home/link03.png) no-repeat center -80px;
+}
+.section01 .tabUl .li07 a:hover p {
+    background: url(../images/home/link04.png) no-repeat center -80px;
+}
+.section01 .tabBox {
+    display: none;
+    width:908px;
+    float: left;
+    position: relative;
+}
+.section01 .tabBox .link {
+    position: absolute;
+    top: 155px;
+    right: 88px;
+}
+.section01 .tabBox01 {
+    padding-top: 85px;
+    height: 590px;
+    left: 190px;
+}
+.section01 .tabBox02 {
+    padding-top:85px;
+    width: 828px;
+    height: 590px;
+    left: 180px;
+}
+.section01 .tabBox03,
+.section01 .tabBox04,
+.section01 .tabBox05,
+.section01 .tabBox06,
+.section01 .tabBox07 {
+    padding-top:85px;
+    width: 873px;
+    height: 590px;
+    left: 190px;
+}
+
+.section01 .tabBox .linkList {
+    width: 690px;
+    position: absolute;
+    bottom: 140px;
+    text-align: center;
+}
+.section01 .tabBox .linkList li {
+    display: inline;
+    position: relative;
+    color: #97611B;
+}
+.section01 .tabBox .linkList li a {
+    margin: 0 10px;
+    color:#e5b53b;
+}
+.section01 .tabBox .linkList li .hot {
+    position: absolute;
+    top: -15px;
+    right: -2px;
+}
+.section01 .tabBox .linkList li .color01 {
+    color: #ff2424;
+}
+.section01 .tabBox02 .linkList {
+    width: 760px;
+   /* bottom: 85px;*/
+}
+
+
+/***hot games***/
+.list-game-item {
+    text-align: center;
+    position: relative;
+    margin-bottom: 150px;
+    padding-top: 78%;
+}
+.list-game-item > a {
+    display: block;
+    position: absolute;
+    left: 8%;
+    top: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.list-game-item .label {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 99;
+    -webkit-animation: lightAnimation 0.3s ease-in-out infinite;
+    animation: lightAnimation 0.3s ease-in-out infinite;
+}
+.list-game-item .effect,
+.list-game-item .effect-icon {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+.list-game-item .effect-icon img,
+.list-game-item .effect img{
+   /* max-width: 300px;*/
+}
+.list-game-item .effect {
+    z-index: 1;
+    transition: all 0.8s ease-in-out;
+    text-align: center;
+    margin-top: 10px;
+}
+.list-game-item .effect img{
+    max-width: 317px;
+}
+.list-game-item:hover .effect {
+    transform: translateY(-30px);
+}
+.list-game-item:hover .effect.style-2 {
+    transform: translateY(-20px);
+}
+.list-game-item .title {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    /*height:45px;*/
+    font-size: 16px;
+    font-weight: 800;
+    color:#000;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.section__title {
+    margin-bottom: 16px;
+}
+.section__title .start-title img{
+    max-width: 58px;
+}
+.section__title .heading.h2 span {
+    position: relative;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    margin: 0 19px;
+    color:#f8c849;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+.section__title .heading.h2 span:after,
+.section__title .heading.h2 span:before {
+    position: absolute;
+    top: 18px;
+    width: 196px;
+    height: 4px;
+    content: "";
+    background-repeat: no-repeat;
+}
+.section__title .heading.h2 span:before {
+    left: -215px;
+    background-image: url(../images/home/line-title-left.svg);
+}
+.section__title .heading.h2 span:after {
+    right: -215px;
+    background-image: url(../images/home/line-title-right.svg);
+}
+.promo_bg {
+    padding: 0px 0px 100px 0px;
+    background: #251a11;
+    margin-top: 50px;
+}
+.matop50{
+    margin-top: 50px;
+}
+.bg-sports:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 20%;
+    content: "";
+    background: linear-gradient(
+0deg
+,rgba(28,26,28,0),#1e2230);
+}
+.fav-game-container a, .fav-game-container li {
+    position: relative;
+    z-index: 2;
+}
+.bg-sports li em {
+    color: #fff;
+    position: absolute;
+    bottom: 24%;
+    left: -50%;
+    transform: translate(50%, 50%);
+    width: 100%;
+    z-index: 3;
+}
